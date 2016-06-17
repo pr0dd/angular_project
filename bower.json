@@ -1,0 +1,50 @@
+{
+  "name": "angular-project",
+  "description": "basic structure of directories for the project",
+  "main": "index.js",
+  "authors": [
+    "oleg.ch"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/lib",
+    "test",
+    "tests"
+  ],
+  "overrides": {
+    "jquery": {
+      "main": [
+        "dist/jquery.min.js"
+      ]
+    },
+    "angular-bootstrap": {
+      "main": [
+        "./ui-bootstrap-tpls.min.js"
+      ]
+    },
+    "angular": {
+      "main": [
+        "./angular.min.js"
+      ]
+    },
+    "bootstrap-css-only": {
+      "main": [
+        "css/bootstrap.min.css",
+        "fonts/glyphicons-halflings-regular.eot",
+        "fonts/glyphicons-halflings-regular.svg",
+        "fonts/glyphicons-halflings-regular.ttf",
+        "fonts/glyphicons-halflings-regular.woff",
+        "fonts/glyphicons-halflings-regular.woff2"
+      ]
+    }
+  },
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "angular-bootstrap": "^1.3.3",
+    "bootstrap-css-only": "^3.3.6"
+  }
+}

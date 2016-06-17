@@ -1,0 +1,7 @@
+/*GENERIC STYLES*/
+body {
+  overflow-x: hidden; }
+
+/*ng-cloak styles, which don't work as expected, unfortunately...*/
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important; }
